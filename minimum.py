@@ -8,7 +8,7 @@ import random
 
 
 def smallest_number(list_of_numbers):
-    # This function finds the maximum value
+    # This function finds the minimum value
     minimum = list_of_numbers[0]
     for a_single_number in list_of_numbers:
         if a_single_number < minimum:
